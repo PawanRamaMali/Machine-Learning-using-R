@@ -35,3 +35,17 @@ In this strategy, new attributes are constructed from the given set of attribute
 This is done to replace the raw values of numeric attribute by interval levels or conceptual levels.
 ##### Concept Hierarchy Generation:
 Here attributes are converted from level to higher level in hierarchy. For Example-The attribute “city” can be converted to “country”.
+
+
+### 3. Data Reduction:
+Since data mining is a technique that is used to handle huge amount of data. While working with huge volume of data, analysis became harder in such cases. In order to get rid of this, we uses data reduction technique. It aims to increase the storage efficiency and reduce data storage and analysis costs.
+
+The various steps to data reduction are:
+##### Data Cube Aggregation:
+Aggregation operation is applied to data for the construction of the data cube.
+##### Attribute Subset Selection:
+The highly relevant attributes should be used, rest all can be discarded. For performing attribute selection, one can use level of significance and p- value of the attribute.the attribute having p-value greater than significance level can be discarded.
+##### Numerosity Reduction:
+This enable to store the model of data instead of whole data, for example: Regression Models.
+##### Dimensionality Reduction:
+This reduce the size of data by encoding mechanisms.It can be lossy or lossless. If after reconstruction from compressed data, original data can be retrieved, such reduction are called lossless reduction else it is called lossy reduction. The two effective methods of dimensionality reduction are:Wavelet transforms and PCA (Principal Componenet Analysis).
